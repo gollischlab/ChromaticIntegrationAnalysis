@@ -1,0 +1,22 @@
+
+Stimulus parameters:
+
+stimulus = chromatic_integration
+stimulusnumber = 12
+stimduration = 30
+preframes = 120
+contrastdiff = 0.02
+mincontrast = -0.20
+maxcontrast = 0.20
+seed = -1000
+coneisolating = true
+redmeanintensity = 0
+greenmeanintensity = 0.5
+bluemeanintensity = 0.5
+redcontrast = 0
+greencontrast = 0.5
+bluecontrast = 0.5
+lmargin = 0
+rmargin = 0
+bmargin = 0
+tmargin = 0
