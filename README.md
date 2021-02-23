@@ -8,8 +8,10 @@ The code reads the spike times from file, recreates the sequence of chromatic co
 
 To run the sript, use the command "Analyze_Chromatic_Integration_Stimulus" and select one of the provided data folders in the ensuing file dialogue, e.g. "example cell 1".
 
-For more data, see the corresponding data repository at https://gin.g-node.org/gollischlab/Khani_and_Gollisch_2021_RGC_spike_trains_chromatic_integration.
-
 The code relies on the mex file "ran1.mexw64", which contains the random-number generator. It should run as is under Windows 10, 64 bit. If not, you may have to recompile the provided .cpp file ("mex ran1.cpp" in Matlab).
 
 More information about how to use the code in this repository can be found in the accompanying Manual.pdf.
+
+For more data, see the corresponding data repository at https://gin.g-node.org/gollischlab/Khani_and_Gollisch_2021_RGC_spike_trains_chromatic_integration.
+
+The Matlab file "example_load_rgc_data.m" provides information of how to load data from the above mentioned data repository for analysis.
